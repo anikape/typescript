@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/js",
+    "target": "ES6",
+    "noEmitOnError": true,
+    //só vai gerar a pasta js se o TS não tiver erro
+    "noImplicitAny": true
+    },
+  "include": [
+    "app/**/*"
+  ]  
+}
